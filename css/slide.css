@@ -38,11 +38,11 @@
 }
 /*３枚画像の共通設定*/
 .slide1,.slide2,.slide3 {
-	animation-duration: 12s;	/*実行する時間。「s」は秒の事。*/
+	animation-duration: 10s;	/*実行する時間。「s」は秒の事。*/
 	animation-iteration-count:infinite;		/*実行する回数。「infinite」は無限に繰り返す意味。*/
 	position: absolute;left:0px;top:0px;
 	animation-fill-mode: both;
-	animation-delay: 1s;
+	animation-delay: 0s;
 	width: 100%;
 }
 /*土台画像*/
